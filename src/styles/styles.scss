@@ -1,0 +1,35 @@
+html {
+  font-family: 'Jockey One', sans-serif;
+}
+body {
+  background-color: #000959;
+  color: #FFFFFF;
+}
+.about-me-section {
+  margin: 20px;
+}
+.about-me-section h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.about-me-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.profile-me-section {
+  margin: 20px;
+}
+.profile-me-section h1{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.profile-me-section a {
+  margin: 0 16px;
+}
+.profile-me-section a img{
+  width: 32px;
+  height: 32px;
+  filter: invert(100%);
+}
