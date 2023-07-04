@@ -3,9 +3,9 @@ import Menu from '../components/Menu'
 // import Typography from '@mui/material/Typography';
 export default function Home(){
     return (
-        <>
+        <div className="container">
             <header>
-                <Menu />
+                <Menu className="container-menu"/>
             </header>
             <main>
                 <section id="section1">
@@ -15,7 +15,7 @@ export default function Home(){
                     <AboutMe />
                 </section>
             </main>
-        </>
+        </div>
     )
 }
 
