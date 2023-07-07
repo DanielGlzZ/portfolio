@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../styles/styles.scss';
 
 const Menu = () => {
     const [activeLink, setActiveLink] = useState('');
@@ -9,9 +8,9 @@ const Menu = () => {
     };
 
     return (
-        <nav>
+        <nav className="sticky top-20 z-50 bg-violet-600">
             <ul>
-                <li>
+                <li className="text-center box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white">
                     <a
                         href="#section1"
                         className={activeLink === 'section1' ? 'active' : ''}
@@ -20,7 +19,7 @@ const Menu = () => {
                         Section 1
                     </a>
                 </li>
-                <li>
+                <li className="text-center box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white">
                     <a
                         href="#section2"
                         className={activeLink === 'section2' ? 'active' : ''}
@@ -29,7 +28,7 @@ const Menu = () => {
                         Section 2
                     </a>
                 </li>
-                <li>
+                <li className="text-center box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white">
                     <a
                         href="#section3"
                         className={activeLink === 'section3' ? 'active' : ''}
